@@ -45,3 +45,8 @@ li a:hover::after{
   float: left;
   margin-left: 0px 0px 0px 30px;
 }
+main{
+  display: flex;
+  border: 1px solid blue;
+  height: calc(100vh - 100px);
+}
