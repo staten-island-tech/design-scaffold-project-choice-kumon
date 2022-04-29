@@ -49,4 +49,6 @@ main{
   display: flex;
   border: 1px solid blue;
   height: calc(100vh - 100px);
+  align-items: center;
+  justify-content: center;
 }
