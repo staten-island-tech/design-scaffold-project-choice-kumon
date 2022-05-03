@@ -52,3 +52,7 @@ main{
   align-items: center;
   justify-content: center;
 }
+.hero-img{
+  max-width: 670px;
+  height: 450px
+}
