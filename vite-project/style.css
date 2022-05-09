@@ -10,7 +10,6 @@ body {
 
 header{
   height: 100px;
-  background: lightblue;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -46,13 +45,17 @@ li a:hover::after{
   margin-left: 0px 0px 0px 30px;
 }
 main{
-  display: flex;
+
   border: 1px solid blue;
   height: calc(100vh - 100px);
   align-items: center;
   justify-content: center;
+  background: lightblue;
 }
 .hero-img{
   max-width: 670px;
   height: 450px
+}
+.content-left{
+  font-size: large;
 }
