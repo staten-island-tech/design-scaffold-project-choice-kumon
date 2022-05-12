@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Work Sans', sans-serif;
-}
 .logo{
   text-align: center;
   height: 5rem;
@@ -16,6 +13,7 @@ header{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: lightblue;
 
 }
 ul{
@@ -48,11 +46,12 @@ li a:hover::after{
 }
 main{
 
-  border: 1px solid blue;
-  height: calc(100vh - 100px);
+  border: 5px solid blue;
+
   align-items: center;
   justify-content: center;
-  background:url('img_girl.jpg');
+  background:url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Kumon_Students.jpg/1200px-Kumon_Students.jpg');
+  opacity: 20%;
 }
 .hero-img{
   max-width: 670px;
@@ -61,6 +60,8 @@ main{
 .content-left{
   font-size: large;
   text-align: center;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: x-large;
 }
 p{
   padding-top: .5rem;
@@ -78,4 +79,9 @@ h2{
 }
 h3{
   font-size: 2rem;
+  padding-bottom: 1.3rem;
+}
+.center{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.5rem;
 }
