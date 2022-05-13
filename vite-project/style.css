@@ -50,7 +50,7 @@ main{
 
   align-items: center;
   justify-content: center;
-
+  background:url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Kumon_Students.jpg/1200px-Kumon_Students.jpg');
   opacity: 20%;
 }
 .hero-img{
@@ -62,7 +62,6 @@ main{
   text-align: center;
   font-family: 'Alfa Slab One', cursive;
   font-size: x-large;
-  position: relative;
 }
 p{
   padding-top: .5rem;
@@ -85,16 +84,4 @@ h3{
 .center{
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 1.5rem;
-}
-.demo-wrap {
-  overflow: hidden;
-  position: relative;
-}
-.demo-bg {
-  opacity: 0.6;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: auto;
 }
