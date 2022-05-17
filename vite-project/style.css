@@ -5,9 +5,8 @@
 }
 
 .logo{
-  text-align: left;
+  text-align: center;
   height: 5rem;
-  width: 9rem;
 }
 header{
   height: 100px;
@@ -15,8 +14,6 @@ header{
   justify-content: space-around;
   align-items: center;
   background-color: lightblue;
-  position: relative;
-  z-index: 999;
 
 }
 ul{
@@ -29,8 +26,6 @@ ul li a{
   text-decoration: none;
   color: #3a3a3a;
   display: inline-block;
-  font-family: 'Bebas Neue', cursive;
-  font-size: large;
 }
 
 li a::after{
@@ -96,7 +91,4 @@ h3{
   top: 0;
   width: 100%;
   height: auto;
-}
-.content-right{
-  opacity: 100%;
 }
