@@ -7,6 +7,7 @@
 .logo{
   text-align: center;
   height: 5rem;
+  padding-right: 5rem;
 }
 header{
   height: 100px;
@@ -48,7 +49,6 @@ li a:hover::after{
   margin-left: 0px 0px 0px 30px;
 }
 main{
-  border: 5px solid blue;
   align-items: center;
   justify-content: center;
   overflow: hidden;
@@ -133,5 +133,26 @@ h4{
 .info{
   display: flex;
   box-sizing: border-box;
+  text-align: center;
+  font-size: 1.5rem;
+
   
+}
+.people{
+  object-fit: cover;
+  padding-left: 14rem;
+}
+.abt{
+  padding-left: 23rem;
+  font-size: 2rem;
+  padding-top: 4rem;
+}
+.text{
+  width: 49rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20rem;
+
+
 }
