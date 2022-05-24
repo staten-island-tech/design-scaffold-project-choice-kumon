@@ -84,9 +84,10 @@ h3{
   padding-bottom: 1.3rem;
 }
 .center{
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-size: 2.5rem;
   padding-bottom: 1rem;
+  font-weight: 400;
 }
 .front{
   opacity: 30%;
@@ -113,7 +114,7 @@ h3{
 h4{
   text-align: center;
   box-sizing: content-box;
-  background-color: lightblue;
+  background-color: rgb(218, 238, 245);
   padding-top:6rem;
   justify-content: center;
   align-items: center;
@@ -124,11 +125,12 @@ h4{
   text-align: center;
   flex-wrap: wrap;
   box-sizing: content-box;
-  background-color: lightgray;
+  background-color: rgb(235, 232, 232);
   justify-content: center;
   align-items: center;
   vertical-align: 3rem;
   font-size: 5rem;
+  
 }
 .info{
   display: flex;
@@ -146,13 +148,25 @@ h4{
   padding-left: 23rem;
   font-size: 2rem;
   padding-top: 4rem;
+  padding-bottom: 1.6rem;
+  
 }
 .text{
   width: 49rem;
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding-left: 20rem;
-
-
+  padding-left: 9rem;
+}
+.MR{
+  padding-bottom: 2.5rem;
+}
+.ASP{
+  padding-bottom: 2.5rem;
+}
+.this{
+  background-color: rgb(218, 238, 245);
+}
+.MS{
+  font-family: 'Lexend Deca', sans-serif;
 }
