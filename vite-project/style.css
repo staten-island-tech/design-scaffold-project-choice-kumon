@@ -12,7 +12,6 @@
 header{
   height: 100px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
   background-color: lightblue;
 
@@ -20,6 +19,7 @@ header{
 ul{
   display: flex;
   list-style-type: none;
+  padding-left: 34rem;
 }
 
 ul li a{
@@ -72,16 +72,25 @@ p{
   height: 200px;
   text-align: center;
 }
-h1{
-  font-size: 4rem;
+.math{
+  font-size: 5rem;
   padding-top: 3rem;
+  font-family: 'Anek Malayalam', sans-serif;
+  font-weight: bolder;
 }
-h2{
+.main{
   font-size:4rem
 }
-h3{
-  font-size: 4rem;
+.read{
+  font-size:5rem;
+  font-family: 'Anek Malayalam', sans-serif;
+  font-weight: bolder;
+}
+.succ{
+  font-size: 5rem;
   padding-bottom: 1.3rem;
+  font-family: 'Anek Malayalam', sans-serif;
+  font-weight: bolder;
 }
 .center{
   font-family: 'Archivo', sans-serif;
@@ -111,7 +120,7 @@ h3{
 .back{
   padding-top: 1rem;
 }
-h4{
+h1{
   text-align: center;
   box-sizing: content-box;
   background-color: rgb(218, 238, 245);
@@ -142,21 +151,20 @@ h4{
 }
 .people{
   object-fit: cover;
-  padding-left: 14rem;
+  position:relative; left:5rem; 
 }
 .abt{
-  padding-left: 23rem;
-  font-size: 2rem;
-  padding-top: 4rem;
+  padding-left: 20rem;
+  font-size: 4rem;
+  padding-top:4rem;
   padding-bottom: 1.6rem;
   
 }
 .text{
-  width: 49rem;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  padding-left: 9rem;
+  width:40rem;
+  padding-left: 3rem;
+  font-family: 'Saira', sans-serif;
+  position:relative; left:5rem; top:-3rem; 
 }
 .MR{
   padding-bottom: 2.5rem;
@@ -168,5 +176,129 @@ h4{
   background-color: rgb(218, 238, 245);
 }
 .MS{
+  font-family: 'Anek Malayalam', sans-serif;
+  width: 90rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+h3{
+  text-align: center;
+  box-sizing: content-box;
+  background-color: rgb(218, 238, 245);
+  padding-top:6rem;
+  justify-content: center;
+  align-items: center;
+  vertical-align: 3rem;
+  padding-bottom: 4rem;
+}
+.diff{
+  text-align: left;
+  background-color: lightgray;
+  font-size: 5rem;
+  padding: 10px 22px;
+  background-color: lightskyblue;
   font-family: 'Lexend Deca', sans-serif;
+  font-weight: bold;
+
+}
+.kid{
+  position:relative; left:5rem; top:4rem; 
+}
+.word{
+  position:relative; left:45rem; top:-10rem; 
+  font-family: 'Saira', sans-serif;
+  width: 35rem;
+  font-size: 2rem;
+}
+.more{
+  background-color: rgb(218, 238, 245);
+
+}
+.kids{
+  position:relative; left:45rem; top:-2rem; 
+}
+.apply{
+  position:relative; left:5rem; top:-15rem; 
+  font-family: 'Saira', sans-serif;
+  width: 35rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.how{
+  position:relative; left:5rem; top:-5rem; 
+}
+.crazy{
+  position:relative; left:50rem; top:-18rem; 
+  font-family: 'Saira', sans-serif;
+  width: 35rem;
+  font-size: 2rem;
+}
+
+.program{
+  text-align: left;
+  font-size: 5rem;
+  padding: 10px 22px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: bold;
+  padding-left: 6.8rem;
+
+}
+.prgm{
+  overflow: hidden;
+  position: relative;
+  background-color: rgb(218, 238, 245);
+}
+.circle{
+  text-align: center;
+  padding-top: 4rem;
+}
+.m{
+  position: absolute; left:13.5rem; top:15rem;
+  font-size: 3rem; 
+}
+.ath{
+  position: absolute; left:7rem; top:20rem;
+  font-size:1.5rem; 
+  width: 20rem;
+  text-align: center;
+}
+.c{
+  position: absolute; left:41.7rem; top:15rem;
+  font-size: 3rem; 
+}
+.lass{
+  position: absolute; left:35rem; top:20rem;
+  font-size:1.5rem; 
+  width: 20rem;
+  text-align: center;
+}
+.r{
+  position: absolute; left:68.5rem; top:15rem;
+  font-size: 3rem; 
+}
+.ead{
+  position: absolute; left:63.4rem; top:20rem;
+  font-size:1.5rem; 
+  width: 20rem;
+  text-align: center;
+}
+.blank{
+  text-align: center;
+  box-sizing: content-box;
+  background-color: rgb(218, 238, 245);
+  padding-top:6rem;
+  justify-content: center;
+  align-items: center;
+  vertical-align: 3rem;
+  padding-bottom: 4rem;
+}
+.faq{
+  padding-top: 4rem;
+  background-color: rgb(218, 238, 245);
+  text-align: left;
+  font-size: 5rem;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: bold;
+  padding-left: 4rem;
 }
