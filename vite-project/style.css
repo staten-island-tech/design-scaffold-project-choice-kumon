@@ -284,16 +284,13 @@ h3{
   text-align: center;
 }
 .blank{
-  text-align: center;
-  box-sizing: content-box;
+
   background-color: rgb(218, 238, 245);
   padding-top:6rem;
-  justify-content: center;
-  align-items: center;
   vertical-align: 3rem;
   padding-bottom: 4rem;
 }
-.faq{
+.frq{
   padding-top: 4rem;
   background-color: rgb(218, 238, 245);
   text-align: left;
@@ -301,4 +298,35 @@ h3{
   font-family: 'Lexend Deca', sans-serif;
   font-weight: bold;
   padding-left: 4rem;
+}
+.smile{
+  padding-left: 4rem;
+}
+.form-parent{
+  position: relative; left:5rem; top:2.5em;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 2.5rem;
+
+}
+.hero-form-input{
+  display: flex;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.mtext{
+  position: relative; left:50rem; top:-30rem;
+  width: 35rem;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 1.5rem;
+}
+.q{
+  font-weight: bolder;
+}
+.qq{
+  font-weight: bolder;
+}
+.qqq{
+  font-weight: bolder;
+}
+.qqqq{
+  font-weight: bolder;
 }
