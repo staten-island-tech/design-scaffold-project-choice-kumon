@@ -291,7 +291,6 @@ h3{
   padding-bottom: 4rem;
 }
 .frq{
-  padding-top: 4rem;
   background-color: rgb(218, 238, 245);
   text-align: left;
   font-size: 5rem;
@@ -330,3 +329,44 @@ h3{
 .qqqq{
   font-weight: bolder;
 }
+.footer{
+  text-align: center;
+  background-color: rgb(125, 228, 241);
+  padding-top: 2rem;
+}
+.footer-legal{
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+.logos{
+  position: relative; left:0rem; top:-1rem;
+}
+.text-box{
+  width: 20rem;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  height: 2rem;
+  text-align: center;
+  justify-content: center;
+   
+
+}
+input[type=boxy]:focus {
+  background-color: lightblue;
+}
+.booo {border-radius: 4px;}
+
+.booo{
+  background-color:rgb(129, 206, 203);
+  width: 5rem;
+  height: 3rem;
+
+}
+
+.booo:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+  
