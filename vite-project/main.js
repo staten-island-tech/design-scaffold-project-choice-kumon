@@ -10,3 +10,5 @@ document.getElementById("form").addEventListener("submit", function (e) {
 function erase () {
     DOMSelectors.input1.value = " ";
 }
+
+import {gsap} from "gsap";
