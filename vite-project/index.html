@@ -5,31 +5,34 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Koulen&family=League+Spartan&family=Work+Sans&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Koulen&family=League+Spartan&family=Plus+Jakarta+Sans:ital,wght@1,300&family=Work+Sans&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Koulen&family=League+Spartan&family=Plus+Jakarta+Sans:ital,wght@1,300&family=Work+Sans&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo:wght@200&family=Bebas+Neue&family=Koulen&family=League+Spartan&family=Plus+Jakarta+Sans:ital,wght@1,300&family=Signika&family=Work+Sans&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo:wght@200&family=Bebas+Neue&family=Koulen&family=League+Spartan&family=Lexend+Deca:wght@300&family=Plus+Jakarta+Sans:ital,wght@1,300&family=Signika&family=Work+Sans&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;400&family=Alfa+Slab+One&family=Archivo:wght@200&family=Bebas+Neue&family=Koulen&family=League+Spartan&family=Lexend+Deca:wght@300&family=Plus+Jakarta+Sans:ital,wght@1,300&family=Saira:wght@300;400&family=Signika&family=Work+Sans&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;400&family=Alfa+Slab+One&family=Anek+Malayalam:wght@700&family=Archivo:wght@200&family=Bebas+Neue&family=Koulen&family=League+Spartan&family=Lexend+Deca:wght@300&family=Plus+Jakarta+Sans:ital,wght@1,300&family=Ramabhadra&family=Saira:wght@300;400&family=Signika&family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Koulen&family=League+Spartan&family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Koulen&family=League+Spartan&family=Plus+Jakarta+Sans:ital,wght@1,300&family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Koulen&family=League+Spartan&family=Plus+Jakarta+Sans:ital,wght@1,300&family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo:wght@200&family=Bebas+Neue&family=Koulen&family=League+Spartan&family=Plus+Jakarta+Sans:ital,wght@1,300&family=Signika&family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo:wght@200&family=Bebas+Neue&family=Koulen&family=League+Spartan&family=Lexend+Deca:wght@300&family=Plus+Jakarta+Sans:ital,wght@1,300&family=Signika&family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;400&family=Alfa+Slab+One&family=Archivo:wght@200&family=Bebas+Neue&family=Koulen&family=League+Spartan&family=Lexend+Deca:wght@300&family=Plus+Jakarta+Sans:ital,wght@1,300&family=Saira:wght@300;400&family=Signika&family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;400&family=Alfa+Slab+One&family=Anek+Malayalam:wght@700&family=Archivo:wght@200&family=Bebas+Neue&family=Koulen&family=League+Spartan&family=Lexend+Deca:wght@300&family=Plus+Jakarta+Sans:ital,wght@1,300&family=Ramabhadra&family=Saira:wght@300;400&family=Signika&family=Work+Sans&display=swap" rel="stylesheet">
     <title>Vite App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" defer></script>
+    <srcipt src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js" defer></srcipt>
+    <script type="module" src="main.js" defer></script>
   </head>
   <body>
     <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-    <header>
+
+    <header class="header">
       <div class="logo">
         <div class="logo2">
         </div>
       </div>
       <img src="https://external-preview.redd.it/DAzyac2u1-EF_hVha3qb1_BjtnqzFl-iMewJHfmQpCA.gif?format=png8&s=959ac43bd3929421becebb6c23f3ea80c13f3961" alt="logo" height="75px">
       <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="1.html">About</a></li>
-          <li><a href="2.html">Program</a></li>
-          <li><a href="3.html">FAQs</a></li>
+        <ul class="fade">
+          <li><a id="home" href="index.html">Home</a></li>
+          <li><a id="about">About</a></li>
+          <li><a id="program">Program</a></li>
+          <li><a id="faq">FAQs</a></li>
           <li><a href="https://www.kumon.com/long-island-city/aboutcenter" class="not">Enroll</a></li>
         </ul>
       </nav>
@@ -45,7 +48,7 @@
         learners and astute critical thinkers.</p>
       <div class="content-right">
         <a href="back">
-          <img src="https://www.kumon.com/assets/images/hero/2022-Q1/KMN7579_WebBanner-cta-1920-1@2x.png" alt="Ad"  width="400px"></a>
+          <a href="https://www.kumon.com/long-island-city/scheduler" > <img src="https://www.kumon.com/assets/images/hero/2022-Q1/KMN7579_WebBanner-cta-1920-1@2x.png" class="banner" alt="Ad"  width="400px" ></a></a>
       </div> 
       </div> 
     </main>
@@ -53,7 +56,7 @@
     </h1>
     <h2>
       <div class="about">
-        <p class ="MS">We Strive To Help Your Child Reach Their Fullest Academic Potential</p>
+        <p class ="MS" id="MS">We Strive To Help Your Child Reach Their Fullest Academic Potential</p>
       </div>
       <div class="this">
         <p class="abt">About</p>
@@ -90,7 +93,7 @@
       </div>
     </div>
     <div class = "prgm">
-      <p class="program">Program</p>
+      <p id="prog" class="program">Program</p>
       <div class="circle">
         <img src= "https://fitcon.com/wp-content/uploads/2017/08/BLUE-CIRCLE.png" length="450rem" height="450rem">
         <img src= "https://fitcon.com/wp-content/uploads/2017/08/BLUE-CIRCLE.png" length="450rem" height="450rem">
@@ -112,7 +115,7 @@
       </div>
     </div>
     <div class="blank">
-      <p class="frq">FAQs</p>
+      <p class="frq" id="frq">FAQs</p>
       <img src= "https://www.kumon.com/resources/wp-content/uploads/2020/03/Blog-header.jpg" class="smile" width="700rem" height="400rem">
       <section class="form-parent">
         <form id="form">
@@ -141,7 +144,7 @@
         <a href="https://www.facebook.com/kumon/"><img src="https://www.stephenvilletx.gov/sites/default/files/styles/gallery500/public/imageattachments/hr/page/23820/facebook_icon_130940.png?itok=n5rUaJti" alt="Facebook" id="fb-logo" class="logos" height="40rem"></a>
         <a href="https://twitter.com/Kumon_NA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png" alt="Twitter" id="twitter-logo" class="logos" height="40rem"></a>
         <a href="https://www.instagram.com/kumonnorthamerica/?hl=en"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="Instagram" id="ig-logo" class="logos" height="40rem"></a>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://live.staticflickr.com/3323/3606295240_51f643dd5d_b.jpg" alt="Youtube" id="yt-logo" class="logos" height="40rem"></a>
+        <a href="https://www.youtube.com/c/KumonNorthAmerica"><img src="https://live.staticflickr.com/3323/3606295240_51f643dd5d_b.jpg" alt="Youtube" id="yt-logo" class="logos" height="40rem"></a>
                                                                                                                                                                                                                                                   
       </div>
       <div class="footer-legal">
