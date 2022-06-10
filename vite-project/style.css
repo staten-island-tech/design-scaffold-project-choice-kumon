@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.body{
+  scroll-behavior: smooth
+}
 .logo{
   text-align: center;
   height: 5rem;
