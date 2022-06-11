@@ -173,8 +173,7 @@ h1{
 .people{
   object-fit: cover;
   position:relative; left:5rem; 
-  position: sticky;
-  top:0
+  
 
 
 }

@@ -34,35 +34,30 @@ faq.addEventListener("click" ,navigatefaq, false);
 function navigatefaq(e){
     frq.scrollIntoView({behavior:"smooth"});
 }
-
-gsap.registerPlugin(ScrollTrigger);
-
-ScrollTrigger.defaults({
-  markers: false
+let tl = gsap.timeline({
+  scrollTrigger: {
+    trigger: '.hw',
+  }
 });
-$(".abt").each(function (index) {
-    let triggerElement = $(this);
-    let targetElement = $(".people");
-  
-    let tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: triggerElement,
-        start: "top top",
-        end: "bottom bottom",
-        scrub: 1
-      }
-    });
-    tl.fromTo(targetElement, {
-        width: "35rem",
-        height: "35rem",
-        borderRadius:"35rem",
-        duration: 1
-      },
-      {
-        width: "100vw",
-        height: "100vh",
-        borderRadius:"0em",
-        duration: 1
-      }
-    );
-  });
+tl.from('.people',{x:-200,opacity:0,duration:1.5})
+
+let td = gsap.timeline({
+  scrollTrigger: {
+    trigger: '.kid',
+  }
+});
+td.from('.word',{x:200,opacity:0,duration:1.5})
+
+let tb = gsap.timeline({
+  scrollTrigger: {
+    trigger: '.kids',
+  }
+});
+tb.from('.apply',{x:200,opacity:0,duration:1.5})
+
+let tt = gsap.timeline({
+  scrollTrigger: {
+    trigger: '.how',
+  }
+});
+tt.from('.crazy',{x:200,opacity:0,duration:1.5})
