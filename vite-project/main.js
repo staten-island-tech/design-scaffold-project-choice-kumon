@@ -53,7 +53,7 @@ let tb = gsap.timeline({
     trigger: '.kids',
   }
 });
-tb.from('.apply',{x:200,opacity:0,duration:1.5})
+tb.from('.apply',{x:-200,opacity:0,duration:1.5})
 
 let tt = gsap.timeline({
   scrollTrigger: {
